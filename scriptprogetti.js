@@ -80,7 +80,7 @@ $(document).ready(function() {
 
 
 // EXAMPLE json da cambiare //
-const petsData = [
+const petsData =[
  {
    "Num": 1,
    "Name": "Titolo di Prova",
@@ -96,12 +96,12 @@ const petsData = [
  },
  {
    "Num": 2,
-   "Name": "Titolo Prova 2",
-   "Image1": "assets/01.jpg",
-   "Image2": "assets/02.jpg",
-   "Image3": "assets/03.jpg",
-   "Image4": "assets/04.jpg",
-   "Image5": "assets/05.jpg",
+   "Name": "RGB",
+   "Image1": "assets/rgb/01_RGB.jpg",
+   "Image2": "assets/rgb/02_RGB.jpg",
+   "Image3": "assets/rgb/03_RGB.jpg",
+   "Image4": "assets/rgb/04_RGB.jpg",
+   "Image5": "assets/rgb/05_RGB.jpg",
    "Image6": "assets/06.jpg",
    "Image7": "assets/07.jpg",
    "Image8": "assets/08.jpg",
