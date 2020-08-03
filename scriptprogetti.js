@@ -490,10 +490,10 @@ const petsData =[
 // GRID TEMPLATE //
 function memeTemplate(pet) {
     return `
-<a class="animal" name="${pet.Num}">
+<li>
 <a class="pet-name" data-name="${pet.Name}" id="${pet.Num}" data-image1="${pet.Image1}" data-image2="${pet.Image2}" data-image3="${pet.Image3}" data-image4="${pet.Image4}" data-image5="${pet.Image5}" data-image6="${pet.Image6}" data-image7="${pet.Image7}" data-image8="${pet.Image8}" data-image9="${pet.Image9}" onclick="funzione()" data-cliente="${pet.Cliente}" data-propaganda="${pet.Date}" data-spiegazione="${pet.Description}" data-template="${pet.Template}">${pet.Name}
 </a>
-</a>
+</li>
 `
 }
 
