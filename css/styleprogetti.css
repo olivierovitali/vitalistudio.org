@@ -149,6 +149,8 @@ body {
     
     
     .listacontatti{
+        float:right;
+    width:50vw;
         position:relative;
         top:0rem;
         line-height: 2rem;
@@ -163,8 +165,9 @@ body {
 
 
 .listaprogetti{
-    padding-right: 3rem;
-    padding-top: 12rem;
+    
+    padding-right: 2.5rem;
+    padding-top: 10rem;
 }
     #app{
     text-align: end!important;
@@ -177,7 +180,8 @@ body {
 
     
   #text, p{
-  width: 100%;
+  width: 104%;
+  margin-right: 10vw;
 }  
     
 ul {
@@ -208,7 +212,7 @@ font-size: 1rem;
 
   #text p {
     padding-right: 5%;
-    font-size:0.8rem;
+    font-size:1rem;
 /*     margin-left: 8%;
  */    text-align: right;
     line-height: 1.5rem;
@@ -236,8 +240,9 @@ font-size: 1rem;
 
    
     .sidebar{
-        box-shadow: 6px -38px 44px 0px;
-        z-index: 1;
+/*         box-shadow: 6px -38px 44px 0px;
+ */        z-index: 1;
+ border-bottom: 1px solid black;
         display:flex;
         flex-direction: column;
         position: fixed;
@@ -383,7 +388,7 @@ font-size: 1rem;
 }
 .testoabout{
     position: relative;
-    margin-top:12rem;
+    margin-top:13rem;
     z-index: -1;
     text-align: right;
 }
@@ -558,7 +563,7 @@ img {
 }
 .aboutcontent{
     width:50vw;
-    margin-top:1rem;
+    margin-top:0rem;
 /*
     line-height: 1.8rem;
     margin-top: 0.2rem;
