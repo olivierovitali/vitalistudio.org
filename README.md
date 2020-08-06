@@ -1,1 +1,0 @@
-# Studio-Vitali-site
