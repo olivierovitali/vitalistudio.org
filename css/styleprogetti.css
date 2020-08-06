@@ -197,8 +197,8 @@ font-size: 1rem;
     #testodestra{position:relative; left:-3rem; top:14rem}
 
     #img-project{
-        margin-top: 35vh;
-        height: 25rem;
+        margin-top: 27vh;
+        height: 35rem;
         object-fit: cover;
         overflow-y: hidden;
     }
